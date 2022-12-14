@@ -39,10 +39,54 @@ a.navbar-brand img {
     background-size: cover;
 }
 
-.aobut-me-text {
+.about-me-text {
     font-size: 24px;
 }
 
+.card {
+    border: none;
+    border-radius: 15px;
+    background-color: #f8f9fa;
+    max-width: 100%;
+    overflow: hidden;
+}
+
 .card img {
-    min-width: 100%;
+    border-radius: 15px 15px 0 0;
+    filter: brightness(95%);
+    transition: transform .2s;
+}
+
+.card img:hover {
+    transform: scale(1.02);
+    z-index: 50;
+}
+
+.card-body a {
+    z-index: 1;
+}
+
+.work-experience-heading,
+.work-experience-date,
+.work-experience-title {
+    font-size: 24px;
+}
+
+.work-experience-heading {
+    font-weight: bold;
+    margin: 0;
+}
+
+.work-experience-title {
+    font-weight: 300;
+    color: #bdbdbd;
+}
+
+.work-experience-date {
+    font-weight: 300;
+    color: lightgray;
+}
+
+.work-block {
+    border-bottom: 1px solid #e5e5e5;
 }

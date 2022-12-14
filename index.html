@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="view/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
@@ -19,6 +19,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">My work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Work experience</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Blog</a>
@@ -46,8 +49,8 @@
                     <h2 class="my-auto">About me</h2>
                 </div>
                 <div class="col-6">
-                    <p class="aobut-me-text">I am a student of University of Applied Sciences Centria in Finland.</p>
-                    <p class="aobut-me-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut felis sit amet purus dapibus egestas sed sed leo. Nunc ornare tincidunt ultrices. Suspendisse vitae ornare nunc, ut tincidunt nisl. Aenean mi nibh, pulvinar placerat urna vel, tempor lobortis leo. Mauris interdum enim turpis, vel volutpat ligula cursus a. Duis elit eros, laoreet ut fermentum in, dignissim ac lacus. Proin egestas odio justo, id imperdiet nunc cursus nec. Maecenas sollicitudin luctus velit, et rhoncus tellus vestibulum eu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin nec libero sapien. Cras vel ante porttitor, pellentesque metus quis, tristique urna. Mauris dapibus ante massa, eget lobortis tellus vestibulum et. Nam nec imperdiet eros. Nam in elit nisi. Integer luctus scelerisque neque, at consequat orci accumsan a.
+                    <p class="about-me-text">I am a student of University of Applied Sciences Centria in Finland.</p>
+                    <p class="about-me-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut felis sit amet purus dapibus egestas sed sed leo. Nunc ornare tincidunt ultrices. Suspendisse vitae ornare nunc, ut tincidunt nisl. Aenean mi nibh, pulvinar placerat urna vel, tempor lobortis leo. Mauris interdum enim turpis, vel volutpat ligula cursus a. Duis elit eros, laoreet ut fermentum in, dignissim ac lacus. Proin egestas odio justo, id imperdiet nunc cursus nec. Maecenas sollicitudin luctus velit, et rhoncus tellus vestibulum eu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin nec libero sapien. Cras vel ante porttitor, pellentesque metus quis, tristique urna. Mauris dapibus ante massa, eget lobortis tellus vestibulum et. Nam nec imperdiet eros. Nam in elit nisi. Integer luctus scelerisque neque, at consequat orci accumsan a.
                 </div>
             </div>
         </div>
@@ -60,21 +63,65 @@
             <div class="row h-100 mt-5 justify-content-around">
                 <div class="col-6">
                     <div class="card">
-                        <img src="sources/ok.png" class="card-img-top" alt="...">
+                        <a href="https://ondrejknotek.eu/">
+                            <img src="sources/ok.png" class="card-img-top" alt="...">
+                        </a>
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h3 class="card-title">Personal web page</h3>
+                            <p class="card-text">Personal web page with newsletter, contact form and gallery.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="card">
-                        <img src="sources/mash.png" class="card-img-top" alt="...">
+                        <a href="https://mashrock.cz/" id="ok">
+                            <img src="sources/mash.png" class="card-img-top" alt="...">
+                        </a>
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h3 class="card-title">Rock band</h3>
+                            <p class="card-text">Garage rock band web page with concerts and actualities.</p>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="container" id="last-segment">
+            <div class="row h-100 mt-5 justify-content-between">
+                <div class="col-4">
+                    <h2 class="my-auto">Working experience</h2>
+                </div>
+                <div class="col-6 work-block">
+                    <p class="work-experience-heading">Aimtec a.s.</p>
+                    <p class="work-experience-title">Software developer</p>
+                    <p class="work-experience-date">Mar 2021 - present</p>
+                </div>
+            </div>
+            <div class="row h-100 mt-5 justify-content-end">
+                <div class="col-6 work-block">
+                    <p class="work-experience-heading">ŠKODA AUTO a.s</p>
+                    <p class="work-experience-title">Mobile App Tester (Internship)</p>
+                    <p class="work-experience-date">Feb 2021 - May 2021</p>
+                </div>
+            </div>
+            <div class="row h-100 mt-5 justify-content-end">
+                <div class="col-6">
+                    <p class="work-experience-heading">Konzole a Hry s.r.o.</p>
+                    <p class="work-experience-title">Hardware Service</p>
+                    <p class="work-experience-date">Feb 2018 - Jun 2020</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <span class="mb-3 mb-md-0 text-muted">© 2022 Samuel Vítek</span>
+                </div>
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                </ul>
+            </footer>
         </div>
     </main>
 
