@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+/* Default settings */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    font-family: 'Dosis', sans-serif;
+    font-size: 21px;
+}
+
+a.navbar-brand img {
+    border-radius: 50%;
+}
+
+#first-segment {
+    height: 80vh;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../sources/parallax_img.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aobut-me-text {
+    font-size: 24px;
+}
+
+.card img {
+    min-width: 100%;
+}
