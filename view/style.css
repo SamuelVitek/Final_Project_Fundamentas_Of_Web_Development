@@ -66,18 +66,28 @@ a.navbar-brand img {
     z-index: 1;
 }
 
-.work-experience-heading,
 .work-experience-date,
 .work-experience-title {
     font-size: 24px;
 }
 
-.work-experience-heading {
+.work-experience-heading,
+.post-title {
+    font-size: 24px;
     font-weight: bold;
     margin: 0;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
 }
 
-.work-experience-title {
+.post-title:hover {
+    color: #464646;
+    text-decoration: none;
+}
+
+.work-experience-title,
+.blog-date {
     font-weight: 300;
     color: #bdbdbd;
 }
@@ -89,4 +99,24 @@ a.navbar-brand img {
 
 .work-block {
     border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-article {
+    padding-top: 15%;
+}
+
+#article-date {
+    font-size: 24px;
+    font-weight: 500;
+    color: #bdbdbd;
+}
+
+#article-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#article-text {
+    font-size: 24px;
+    color: #6e6e6e;
 }
