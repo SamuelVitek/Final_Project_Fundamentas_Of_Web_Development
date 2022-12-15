@@ -10,6 +10,14 @@
 body, html {
     height: 100%;
     width: 100%;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+    position: relative;
 }
 
 nav {
@@ -23,6 +31,12 @@ a.navbar-brand img {
 
 #first-segment {
     height: 80vh;
+}
+
+#second-segment,
+#third-segment,
+#last-segment {
+    scroll-margin-top: 15vh;
 }
 
 .parallax {
